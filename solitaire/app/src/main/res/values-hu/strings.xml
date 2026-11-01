@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pasziánsz</string>
+    <string name="variant_klondike">Klondike</string>
+
+    <string name="action_auto_complete">Befejezés</string>
+    <plurals name="redeals_left">
+        <item quantity="one">Még %d alkalommal lapozhatod át a paklit</item>
+        <item quantity="other">Még %d alkalommal lapozhatod át a paklit</item>
+    </plurals>
+
+    <string name="pile_stock">Pakli</string>
+    <string name="pile_foundation">Alap</string>
+    <string name="pile_column">%1$d. oszlop</string>
+
+    <!-- Corner letters stay the international J/Q/K; TalkBack still reads ász, bubi, dáma, király. -->
+    <string name="rank_short_ace">A</string>
+    <string name="rank_short_jack">J</string>
+    <string name="rank_short_queen">Q</string>
+    <string name="rank_short_king">K</string>
+    <string-array name="rank_names">
+        <item>ász</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>bubi</item>
+        <item>dáma</item>
+        <item>király</item>
+    </string-array>
+    <string-array name="suit_names">
+        <item>treff</item>
+        <item>káró</item>
+        <item>kőr</item>
+        <item>pikk</item>
+    </string-array>
+    <!-- Hungarian puts the suit first: "kőr dáma" -->
+    <string name="card_description">%2$s %1$s</string>
+    <string name="card_face_down">Lefordított lap</string>
+
+    <string name="setting_tap_to_select">Koppints az oszlopra, majd a célhelyre</string>
+    <string name="setting_tap_to_select_summary">Nem kell pontosan eltalálni a lapot: a játék kiválasztja, melyik lapot kell áttenni a sorozatból</string>
+    <string name="setting_tap_to_move">Mozgatás koppintással (könnyített mód)</string>
+    <string name="setting_tap_to_move_summary">Koppints egy lapra, és az magától a legjobb helyre kerül</string>
+    <string name="setting_auto_foundation">Automatikus rakás az alapokra (könnyített mód)</string>
+    <string name="setting_auto_foundation_summary">Az asztalon már nem szükséges lapok automatikusan az alapokra kerülnek</string>
+    <string name="setting_winnable_only">Csak megnyerhető leosztások</string>
+    <string name="setting_winnable_only_summary">Minden leosztást egy megoldóprogram ellenőriz, mielőtt játszanál vele</string>
+    <string name="setting_left_handed">Balkezes elrendezés</string>
+    <string name="setting_left_handed_summary">A pakli jobb oldalon, az alapok bal oldalon</string>
+    <string name="setting_large_labels">Nagy feliratok a lapokon</string>
+    <string name="setting_large_labels_summary">Nagyobb, vastagabb számok és jelek</string>
+    <string name="setting_four_colors">Négyszínű pakli</string>
+    <string name="setting_four_colors_summary">A káró kék, a treff zöld, így mind a négy jelnek saját színe van</string>
+    <string name="setting_table_color">Asztal színe</string>
+    <string name="setting_card_back">Kártya hátoldala</string>
+
+    <string name="rules_goal_title">A játék célja</string>
+    <string name="rules_goal">Rakd fel mind az 52 lapot a négy alapra, színenként egy-egy kupacba, ásztól királyig növekvő sorrendben.</string>
+    <string name="rules_table_title">Az asztal</string>
+    <string name="rules_table">Hét oszlopot osztunk ki, mindegyik legfelső lapja felfordítva. A maradék lapok alkotják a paklit a felső sarokban. Mellette van a dobópakli, ahová a pakliból felfordított lapok kerülnek. A négy alap kezdetben üres.</string>
+    <string name="rules_moves_title">Lapok mozgatása</string>
+    <string name="rules_moves">Az oszlopokban csökkenő sorrendben, váltakozó színnel építkezz: például piros 9-est fekete 10-esre. Egy lapot vagy egy teljes, sorba rendezett sorozatot is áthelyezhetsz. Üres oszlopba csak király, vagy királlyal kezdődő sorozat tehető. Ha egy lefordított lap szabaddá válik, felfordul.</string>
+    <string name="rules_stock_title">Pakli</string>
+    <string name="rules_stock">Koppints a paklira, hogy egy lapot felfordíts a dobópaklira. A dobópakli legfelső lapja oszlopra vagy alapra tehető. Ha a pakli elfogyott, koppints az üres helyére, és a dobópakli visszafordul, így újra átlapozhatod – ahányszor csak szeretnéd.</string>
+    <string name="rules_controls_title">Irányítás</string>
+    <string name="rules_controls">Húzd a lapokat a mozgatáshoz, vagy koppints egy oszlopra, majd arra a helyre, ahová a lapjait tennéd: a játék kiválasztja a megfelelő lapot a sorozatból, és a lehetséges célhelyek kiemelve jelennek meg. Bátran használd a Visszavonást, és a Tippet, ha elakadtál. Ha már minden lap fel van fordítva, a Befejezés gomb lejátssza helyetted a játék hátralévő részét. Könnyebb játékhoz kapcsold be a Beállításokban a Mozgatás koppintással és az Automatikus rakás az alapokra opciót.</string>
+    <string name="rules_scoring_title">Pontozás</string>
+    <string name="rules_scoring">Dobópakliból oszlopra: 5 pont. Bármely lap alapra: 10 pont. Lap felfordítása egy oszlopban: 5 pont. Lap visszavétele az alapról: −15 pont. A pakli újbóli átlapozása: −100 pont.</string>
+</resources>

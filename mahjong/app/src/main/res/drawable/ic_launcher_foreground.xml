@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Tile depth -->
+    <path
+        android:fillColor="#FFB89B5E"
+        android:pathData="M39,31 h32 a4,4 0 0 1 4,4 v42 a4,4 0 0 1 -4,4 h-32 a4,4 0 0 1 -4,-4 v-42 a4,4 0 0 1 4,-4 z" />
+    <!-- Tile face -->
+    <path
+        android:fillColor="#FFFBF5E6"
+        android:strokeColor="#FF5D4A2A"
+        android:strokeWidth="1"
+        android:pathData="M35,27 h32 a4,4 0 0 1 4,4 v42 a4,4 0 0 1 -4,4 h-32 a4,4 0 0 1 -4,-4 v-42 a4,4 0 0 1 4,-4 z" />
+    <!-- Five dots -->
+    <path android:fillColor="#FF1E4FA3" android:pathData="M37,36 a5,5 0 1 0 10,0 a5,5 0 1 0 -10,0 z" />
+    <path android:fillColor="#FF2E7D32" android:pathData="M55,36 a5,5 0 1 0 10,0 a5,5 0 1 0 -10,0 z" />
+    <path android:fillColor="#FFC62828" android:pathData="M45,52 a6,6 0 1 0 12,0 a6,6 0 1 0 -12,0 z" />
+    <path android:fillColor="#FF2E7D32" android:pathData="M37,68 a5,5 0 1 0 10,0 a5,5 0 1 0 -10,0 z" />
+    <path android:fillColor="#FF1E4FA3" android:pathData="M55,68 a5,5 0 1 0 10,0 a5,5 0 1 0 -10,0 z" />
+</vector>

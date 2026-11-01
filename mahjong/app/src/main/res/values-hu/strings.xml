@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mahjong</string>
+
+    <string name="campaign_title">Kampány</string>
+    <string name="campaign_entry">Kampány · %1$d. szint</string>
+    <string name="campaign_easy">Könnyű</string>
+    <string name="campaign_medium">Közepes</string>
+    <string name="campaign_hard">Nehéz</string>
+    <string name="campaign_total_stars">%1$d / %2$d csillag</string>
+    <string name="campaign_stars_help">★★★ tipp és keverés nélkül, ★★ eggyel, ★ a teljesítésért. Egy szint teljesítése megnyitja a következőt.</string>
+    <string name="level_title">%1$d. szint</string>
+    <string name="level_locked">%1$d. szint, zárolva</string>
+    <plurals name="level_stars">
+        <item quantity="one">%1$d. szint, %2$d csillag</item>
+        <item quantity="other">%1$d. szint, %2$d csillag</item>
+    </plurals>
+    <string name="level_complete">Szint teljesítve!</string>
+    <string name="campaign_complete">A kampány teljesítve! 🎉</string>
+    <string name="action_next_level">Következő szint</string>
+    <string name="action_main_menu">Főmenü</string>
+    <string name="action_restart_level">Szint újrakezdése</string>
+    <string name="label_stars">Csillagok</string>
+    <string name="rules_campaign">25 szint, amely nagyon könnyen indul – kis táblák, kevés féle kő –, és lépésről lépésre nehezedik: nagyobb elrendezések, többféle kő, kevesebb tipp és keverés. Minden szint mindig megoldható.</string>
+
+    <string name="label_tiles">Kövek</string>
+    <string name="label_pairs">Párok</string>
+    <string name="action_shuffle">Keverés</string>
+    <string name="action_play">Játék</string>
+    <string name="action_reset_zoom">Teljes tábla mutatása</string>
+    <string name="action_zoom_in">Nagyítás</string>
+    <string name="action_zoom_out">Kicsinyítés</string>
+    <string name="choose_layout">Válassz elrendezést</string>
+    <plurals name="tile_count">
+        <item quantity="one">%d kő</item>
+        <item quantity="other">%d kő</item>
+    </plurals>
+
+    <string name="stuck_title">Nincs több lépés</string>
+    <string name="stuck_message">Nem maradt szabad, párosítható kő. Keverd meg a maradék köveket, vagy vond vissza az utolsó lépésedet.</string>
+
+    <string name="layout_turtle">Teknős</string>
+    <string name="layout_pyramid">Piramis</string>
+    <string name="layout_fortress">Erőd</string>
+    <string name="layout_bridge">Híd</string>
+    <string name="layout_cross">Kereszt</string>
+    <string name="layout_twin_peaks">Ikercsúcsok</string>
+    <string name="layout_diamond">Gyémánt</string>
+    <string name="layout_beginner">Kezdő</string>
+
+    <!-- Kelet, Dél, Nyugat, Észak; piros, zöld, fehér -->
+    <string name="wind_short_east">K</string>
+    <string name="wind_short_south">D</string>
+    <string name="wind_short_west">Ny</string>
+    <string name="wind_short_north">É</string>
+    <string name="dragon_short_red">P</string>
+    <string name="dragon_short_green">Z</string>
+    <string name="dragon_short_white">F</string>
+
+    <string name="tile_dots">%d pötty</string>
+    <string name="tile_bamboo">%d bambusz</string>
+    <string name="tile_characters">%d karakter</string>
+    <string name="tile_wind_east">Keleti szél</string>
+    <string name="tile_wind_south">Déli szél</string>
+    <string name="tile_wind_west">Nyugati szél</string>
+    <string name="tile_wind_north">Északi szél</string>
+    <string name="tile_dragon_red">Piros sárkány</string>
+    <string name="tile_dragon_green">Zöld sárkány</string>
+    <string name="tile_dragon_white">Fehér sárkány</string>
+    <string name="tile_flower">%d. virág</string>
+    <string name="tile_season">%d. évszak</string>
+
+    <string name="setting_highlight_free">Szabad kövek kiemelése</string>
+    <string name="setting_highlight_free_summary">A még nem választható kövek sötétebbek</string>
+    <string name="setting_show_labels">Sarokjelölések</string>
+    <string name="setting_show_labels_summary">Számok és betűk a köveken a könnyebb felismeréshez</string>
+    <string name="setting_background">Háttér</string>
+
+    <string name="rules_goal_title">A játék célja</string>
+    <string name="rules_goal">Tisztítsd meg a táblát: távolítsd el az összes követ egyforma párokban.</string>
+    <string name="rules_free_title">Szabad kövek</string>
+    <string name="rules_free">Csak szabad követ vehetsz el: semmilyen más kő nem fekszik rajta, még részben sem, és a bal vagy a jobb oldala szabad. A két oldalról közrefogott kövek nem vehetők el. A sötétebb kövek még nem szabadok.</string>
+    <string name="rules_matching_title">Párosítás</string>
+    <string name="rules_matching">Koppints két egyforma, szabad kőre, hogy eltávolítsd őket. A négy virág bármelyike párosítható egymással, és ugyanígy a négy évszak is.</string>
+    <string name="rules_help_title">Ha elakadtál</string>
+    <string name="rules_help">Minden leosztás megoldható. Ha nem maradt pár, vonj vissza néhány lépést, vagy keverd meg a maradék köveket. A Tipp megmutat egy most elvehető párt.</string>
+    <string name="rules_controls_title">Irányítás</string>
+    <string name="rules_controls">Koppints egy kőre a kijelöléséhez, majd koppints a párjára. Nagy elrendezéseknél két ujjal nagyíthatsz, egy ujjal húzva pedig mozgathatod a táblát.</string>
+</resources>

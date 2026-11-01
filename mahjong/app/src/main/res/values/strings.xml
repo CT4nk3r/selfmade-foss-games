@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mahjong</string>
+
+    <string name="campaign_title">Campaign</string>
+    <string name="campaign_entry">Campaign · level %1$d</string>
+    <string name="campaign_easy">Easy</string>
+    <string name="campaign_medium">Medium</string>
+    <string name="campaign_hard">Hard</string>
+    <string name="campaign_total_stars">%1$d of %2$d stars</string>
+    <string name="campaign_stars_help">★★★ without hints or shuffles, ★★ with one, ★ for finishing. Finish a level to unlock the next.</string>
+    <string name="level_title">Level %1$d</string>
+    <string name="level_locked">Level %1$d, locked</string>
+    <plurals name="level_stars">
+        <item quantity="one">Level %1$d, %2$d star</item>
+        <item quantity="other">Level %1$d, %2$d stars</item>
+    </plurals>
+    <string name="level_complete">Level complete!</string>
+    <string name="campaign_complete">Campaign complete! 🎉</string>
+    <string name="action_next_level">Next level</string>
+    <string name="action_main_menu">Main menu</string>
+    <string name="action_restart_level">Restart level</string>
+    <string name="label_stars">Stars</string>
+    <string name="rules_campaign">25 levels that start very easy, with few kinds of tile on small boards, and get harder step by step: bigger layouts, more kinds of tile, and fewer hints and shuffles. Every level can always be solved.</string>
+
+    <string name="label_tiles">Tiles</string>
+    <string name="label_pairs">Pairs</string>
+    <string name="action_shuffle">Shuffle</string>
+    <string name="action_play">Play</string>
+    <string name="action_reset_zoom">Show whole board</string>
+    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_zoom_out">Zoom out</string>
+    <string name="choose_layout">Choose a layout</string>
+    <plurals name="tile_count">
+        <item quantity="one">%d tile</item>
+        <item quantity="other">%d tiles</item>
+    </plurals>
+
+    <string name="stuck_title">No more moves</string>
+    <string name="stuck_message">There are no free matching tiles left. Shuffle the remaining tiles or undo your last move.</string>
+
+    <string name="layout_turtle">Turtle</string>
+    <string name="layout_pyramid">Pyramid</string>
+    <string name="layout_fortress">Fortress</string>
+    <string name="layout_bridge">Bridge</string>
+    <string name="layout_cross">Cross</string>
+    <string name="layout_twin_peaks">Twin Peaks</string>
+    <string name="layout_diamond">Diamond</string>
+    <string name="layout_beginner">Beginner</string>
+
+    <!-- Corner labels on the tiles -->
+    <string name="wind_short_east">E</string>
+    <string name="wind_short_south">S</string>
+    <string name="wind_short_west">W</string>
+    <string name="wind_short_north">N</string>
+    <string name="dragon_short_red">R</string>
+    <string name="dragon_short_green">G</string>
+    <string name="dragon_short_white">W</string>
+
+    <!-- Spoken by TalkBack -->
+    <string name="tile_dots">%d of dots</string>
+    <string name="tile_bamboo">%d of bamboo</string>
+    <string name="tile_characters">%d of characters</string>
+    <string name="tile_wind_east">East wind</string>
+    <string name="tile_wind_south">South wind</string>
+    <string name="tile_wind_west">West wind</string>
+    <string name="tile_wind_north">North wind</string>
+    <string name="tile_dragon_red">Red dragon</string>
+    <string name="tile_dragon_green">Green dragon</string>
+    <string name="tile_dragon_white">White dragon</string>
+    <string name="tile_flower">Flower %d</string>
+    <string name="tile_season">Season %d</string>
+
+    <string name="setting_highlight_free">Highlight free tiles</string>
+    <string name="setting_highlight_free_summary">Tiles that cannot be picked yet are shaded</string>
+    <string name="setting_show_labels">Corner labels</string>
+    <string name="setting_show_labels_summary">Show numbers and letters on the tiles for easier recognition</string>
+    <string name="setting_background">Background</string>
+
+    <string name="rules_goal_title">Goal</string>
+    <string name="rules_goal">Clear the board by removing all tiles in matching pairs.</string>
+    <string name="rules_free_title">Free tiles</string>
+    <string name="rules_free">You can only take a tile that is free: no other tile lies on top of it, even partly, and its left or right side is open. Tiles stuck between neighbours on both sides cannot be taken. Shaded tiles are not free yet.</string>
+    <string name="rules_matching_title">Matching</string>
+    <string name="rules_matching">Tap two free tiles that are identical to remove them. The four flowers all match each other, and so do the four seasons.</string>
+    <string name="rules_help_title">When you are stuck</string>
+    <string name="rules_help">Every deal can be solved. If no pairs are left, undo some moves or shuffle the remaining tiles. Hint shows you a pair you can take right now.</string>
+    <string name="rules_controls_title">Controls</string>
+    <string name="rules_controls">Tap a tile to select it, then tap its pair. Pinch to zoom in on large layouts, and drag with one finger to move around.</string>
+</resources>

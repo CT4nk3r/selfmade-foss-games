@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Solitaire</string>
+    <string name="variant_klondike">Klondike</string>
+
+    <string name="action_auto_complete">Finish</string>
+    <plurals name="redeals_left">
+        <item quantity="one">%d pass through the stock left</item>
+        <item quantity="other">%d passes through the stock left</item>
+    </plurals>
+
+    <string name="pile_stock">Stock</string>
+    <string name="pile_foundation">Foundation</string>
+    <string name="pile_column">Column %1$d</string>
+
+    <string name="rank_short_ace">A</string>
+    <string name="rank_short_jack">J</string>
+    <string name="rank_short_queen">Q</string>
+    <string name="rank_short_king">K</string>
+    <string-array name="rank_names">
+        <item>Ace</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>Jack</item>
+        <item>Queen</item>
+        <item>King</item>
+    </string-array>
+    <!-- Order must match the Suit enum: clubs, diamonds, hearts, spades. -->
+    <string-array name="suit_names">
+        <item>clubs</item>
+        <item>diamonds</item>
+        <item>hearts</item>
+        <item>spades</item>
+    </string-array>
+    <!-- %1$s = rank name, %2$s = suit name -->
+    <string name="card_description">%1$s of %2$s</string>
+    <string name="card_face_down">Face-down card</string>
+
+    <string name="setting_tap_to_select">Tap a column, then where it goes</string>
+    <string name="setting_tap_to_select_summary">No need to hit the exact card: the game picks the right card to move from the stack</string>
+    <string name="setting_tap_to_move">Tap to move (easy mode)</string>
+    <string name="setting_tap_to_move_summary">Tap a card and it moves to the best place by itself</string>
+    <string name="setting_auto_foundation">Auto-move to foundations (easy mode)</string>
+    <string name="setting_auto_foundation_summary">Cards that are no longer needed on the table move to the foundations automatically</string>
+    <string name="setting_winnable_only">Winnable deals only</string>
+    <string name="setting_winnable_only_summary">Each deal is checked by a solver before you play it</string>
+    <string name="setting_left_handed">Left-handed layout</string>
+    <string name="setting_left_handed_summary">Stock on the right, foundations on the left</string>
+    <string name="setting_large_labels">Large card labels</string>
+    <string name="setting_large_labels_summary">Bigger, bolder numbers and suit symbols</string>
+    <string name="setting_four_colors">Four-colour deck</string>
+    <string name="setting_four_colors_summary">Diamonds blue and clubs green, so every suit has its own colour</string>
+    <string name="setting_table_color">Table colour</string>
+    <string name="setting_card_back">Card back</string>
+
+    <string name="rules_goal_title">Goal</string>
+    <string name="rules_goal">Move all 52 cards onto the four foundations, one pile per suit, in order from Ace to King.</string>
+    <string name="rules_table_title">The table</string>
+    <string name="rules_table">Seven columns are dealt with the top card of each face up. The remaining cards form the stock in the top corner. Next to it is the waste, where cards from the stock are turned over. The four foundations start empty.</string>
+    <string name="rules_moves_title">Moving cards</string>
+    <string name="rules_moves">In the columns, build downwards in alternating colours: for example, a red 9 on a black 10. You can move a single card or a whole ordered sequence. Only a King, or a sequence starting with a King, may be placed in an empty column. When a face-down card is uncovered, it turns over.</string>
+    <string name="rules_stock_title">Stock</string>
+    <string name="rules_stock">Tap the stock to turn over one card onto the waste. The top waste card can be played to a column or a foundation. When the stock runs out, tap its empty place to turn the waste back over and go through it again, as many times as you like.</string>
+    <string name="rules_controls_title">Controls</string>
+    <string name="rules_controls">Drag cards to move them, or tap a column and then tap where its cards should go: the game picks the right card from the stack, and the places they can go light up. Use Undo freely, and Hint when you are stuck. When every card is face up, Finish plays the rest of the game for you. For an easier game, turn on Tap to move and Auto-move to foundations in Settings.</string>
+    <string name="rules_scoring_title">Scoring</string>
+    <string name="rules_scoring">Waste to column: 5 points. Any card to a foundation: 10 points. Turning over a card in a column: 5 points. Moving a card back from a foundation: −15 points. Going through the stock again: −100 points.</string>
+</resources>

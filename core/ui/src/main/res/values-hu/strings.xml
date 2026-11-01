@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_new_game">Új játék</string>
+    <string name="action_restart">Játék újrakezdése</string>
+    <string name="action_undo">Visszavonás</string>
+    <string name="bar_undo">Vissza</string>
+    <string name="action_redo">Újra</string>
+    <string name="action_hint">Tipp</string>
+    <string name="action_more">Továbbiak</string>
+    <string name="action_settings">Beállítások</string>
+    <string name="action_statistics">Statisztika</string>
+    <string name="action_how_to_play">Játékszabályok</string>
+    <string name="action_about">Névjegy</string>
+    <string name="action_back">Vissza</string>
+    <string name="action_close">Bezárás</string>
+    <string name="action_cancel">Mégse</string>
+    <string name="action_reset">Törlés</string>
+    <string name="action_daily">Napi kihívás</string>
+    <string name="action_save">Mentés</string>
+    <string name="action_load">Betöltés</string>
+    <string name="action_save_here">Mentés ide</string>
+    <string name="action_delete">Törlés</string>
+
+    <string name="saves_title">Mentett játékok</string>
+    <string name="saves_slot">%1$d. hely</string>
+    <string name="saves_empty">Üres</string>
+    <string name="saves_progress">%1$d%% kész</string>
+    <string name="saves_saved_at">Mentve: %1$s</string>
+    <string name="saves_overwrite_title">Felülírod ezt a mentést?</string>
+    <string name="saves_overwrite_message">Az itt mentett játék helyére a jelenlegi játékod kerül.</string>
+    <string name="saves_load_title">Betöltöd ezt a játékot?</string>
+    <string name="saves_load_message">Ez a mostani játékod helyére kerül. Ha azt is meg szeretnéd tartani, előbb mentsd el egy üres helyre.</string>
+    <string name="saves_delete_title">Törlöd ezt a mentést?</string>
+    <string name="saves_delete_message">A mentett játék törlődik. Ez nem vonható vissza.</string>
+
+    <string name="label_time">Idő</string>
+    <string name="label_moves">Lépések</string>
+    <string name="label_score">Pontszám</string>
+
+    <string name="win_title">Nyertél!</string>
+    <string name="win_daily_title">Teljesítetted a napi kihívást!</string>
+    <string name="dealing">Osztás…</string>
+    <string name="no_hint">Nincs hasznos lépés.</string>
+
+    <string name="confirm_new_game_title">Feladod ezt a játékot?</string>
+    <string name="confirm_new_game_message">A jelenlegi játék vereségként kerül a statisztikádba.</string>
+    <string name="confirm_continue">Tovább</string>
+
+    <string name="stats_played">Lejátszott játékok</string>
+    <string name="stats_won">Megnyert játékok</string>
+    <string name="stats_win_rate">Győzelmi arány</string>
+    <string name="stats_current_streak">Jelenlegi győzelmi sorozat</string>
+    <string name="stats_best_streak">Leghosszabb győzelmi sorozat</string>
+    <string name="stats_best_time">Legjobb idő</string>
+    <string name="stats_best_moves">Legkevesebb lépés</string>
+    <string name="stats_best_score">Legjobb pontszám</string>
+    <string name="stats_total_time">Teljes játékidő</string>
+    <string name="stats_empty">Még nem játszottál egy játékot sem.</string>
+    <string name="stats_reset_title">Törlöd a statisztikát?</string>
+    <string name="stats_reset_message">A játék összes statisztikája törlődik. Ez nem vonható vissza.</string>
+
+    <string name="settings_section_game">Játék</string>
+    <string name="settings_section_appearance">Megjelenés</string>
+    <string name="settings_section_general">Általános</string>
+    <string name="settings_language">Nyelv</string>
+    <string name="settings_language_system">Rendszer alapértelmezése</string>
+    <string name="settings_theme">Téma</string>
+    <string name="theme_system">Rendszer alapértelmezése</string>
+    <string name="theme_light">Világos</string>
+    <string name="theme_dark">Sötét</string>
+    <string name="settings_sound">Hangeffektek</string>
+    <string name="settings_haptics">Rezgés</string>
+    <string name="settings_haptics_summary">Rezgés lépéskor és szabálytalan lépésnél</string>
+    <string name="settings_show_timer">Időmérő megjelenítése</string>
+
+    <string name="color_green">Zöld</string>
+    <string name="color_blue">Kék</string>
+    <string name="color_red">Piros</string>
+    <string name="color_gray">Szürke</string>
+    <string name="color_purple">Lila</string>
+    <string name="color_black">Fekete</string>
+    <string name="color_brown">Barna</string>
+
+    <string name="about_version">Verzió: %1$s</string>
+    <string name="about_license">Szabad, nyílt forráskódú szoftver, a GNU General Public License 3-as verziója (GPL-3.0) alatt.</string>
+    <string name="about_privacy">Nincs reklám, nincs követés és nincs internet-hozzáférés. A játékaid és a statisztikáid nem hagyják el a készülékedet.</string>
+    <string name="about_source">Forráskód</string>
+</resources>
