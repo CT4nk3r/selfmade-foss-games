@@ -10,7 +10,13 @@ No ads, no tracking, no internet permission.
 
 ## Download
 
-Get the APKs from the [Releases page](https://github.com/CT4nk3r/selfmade-foss-games/releases).
+| Game | Download (v0.1.0 beta) |
+|---|---|
+| Solitaire (Pasziánsz) | [solitaire-0.1.0.apk](https://github.com/CT4nk3r/selfmade-foss-games/releases/download/v0.1.0/solitaire-0.1.0.apk) |
+| Mahjong | [mahjong-0.1.0.apk](https://github.com/CT4nk3r/selfmade-foss-games/releases/download/v0.1.0/mahjong-0.1.0.apk) |
+
+Open the downloaded file on your phone and allow installing from that source when asked (Android 8.0+).
+All versions are on the [Releases page](https://github.com/CT4nk3r/selfmade-foss-games/releases).
 Current versions are **beta**: they are signed with a development key, so once properly signed
 releases arrive you will need to uninstall the beta once before installing them.
 
